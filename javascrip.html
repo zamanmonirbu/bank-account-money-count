@@ -5,72 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+   
+</head>
+<body>
+
+    <button id="first">First button</button>
+<h1 >Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, excepturi.</h1>
+<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, excepturi.</h1>
+<h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, excepturi.</h1>
+
+
+
+
+
+
+
+
+
     <script>
-        function time(){
-            document.getElementById("demo").innerHTML="This is time function";
-
+      
+        function oc(){
+            document.body.style.backgroundColor='cyan';
         }
+        let ad=document.getElementById('first');
+        // ad.onclick= oc; 
+        ad.addEventListener('click',oc);
+
+       
+
     </script>
-</head>
-<body>
-    <!-- <div id="demo">
-        A paragrapn
-    </div>
-    <button type="button" onclick="time()">Try it</button>
-    <p>I have make chgage</p>
-    <p>ok mama .<p>
-        <p id="first">experinet of git branches</p>
-        <p> second experinet of git branches</p>
-        <p>third braches</p>
-        <p>third braches</p> -->
-
-<div class="author">
-    <p>author</p>
-   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, modi.</p> 
-</div>
-<div class="author">
-    <p>author</p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, modi.
-</div>
-<div class="author">
-    <p>author</p>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, modi.
-</div>
-
-        <script>
-        
-let author=document.getElementsByClassName('author');
-// author.color='red';
-// author.backgroundColor='green'
-
-// console.log(author);
-for(let i=0;i<author.length;i++){
-   let element=author[i];
-   console.log(element.innerHTML);
-   element.innerHTML='Lekhok '+i;
-   element.style.backgroundColor='lightblue';
-   element.style.margin='10px';
-
-
-}
-        </script>
 </body>
-</html>
-<!-- 
-<!DOCTYPE html>
-<html>
-<head>
-<script>
-function myFunction() {
-  document.getElementById("demo").innerHTML = "Paragraph changed.";
-}
-</script>
-</head>
-<body>
-<h2>Demo JavaScript in Head</h2>
-
-<p id="demo">A Paragraph</p>
-<button type="button" onclick="myFunction()">Try it</button>
-
-</body>
-</html> -->
