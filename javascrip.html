@@ -13,16 +13,47 @@
     </script>
 </head>
 <body>
-    <div id="demo">
+    <!-- <div id="demo">
         A paragrapn
     </div>
     <button type="button" onclick="time()">Try it</button>
     <p>I have make chgage</p>
     <p>ok mama .<p>
-        <p>experinet of git branches</p>
+        <p id="first">experinet of git branches</p>
         <p> second experinet of git branches</p>
         <p>third braches</p>
-        <p>third braches</p>
+        <p>third braches</p> -->
+
+<div class="author">
+    <p>author</p>
+   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, modi.</p> 
+</div>
+<div class="author">
+    <p>author</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, modi.
+</div>
+<div class="author">
+    <p>author</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis, modi.
+</div>
+
+        <script>
+        
+let author=document.getElementsByClassName('author');
+// author.color='red';
+// author.backgroundColor='green'
+
+// console.log(author);
+for(let i=0;i<author.length;i++){
+   let element=author[i];
+   console.log(element.innerHTML);
+   element.innerHTML='Lekhok '+i;
+   element.style.backgroundColor='lightblue';
+   element.style.margin='10px';
+
+
+}
+        </script>
 </body>
 </html>
 <!-- 
